@@ -1,0 +1,50 @@
+
+.background {
+    background-image: radial-gradient(circle, white, rgb(84, 79, 79),rgb(0, 0, 0));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+
+  .num {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .numbox {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .submit {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: rgb(91, 93, 95);
+    transition-duration: 1s;
+  }
+  #box{
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+  #content{
+    color: blueviolet;
+  }
+  #textcol{
+    color: blueviolet;
+  }
